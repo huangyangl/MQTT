@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jetson/shd/C++_ws/MQTT/config.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+MQTTClient.h
+/home/jetson/shd/C++_ws/MQTT/MQTTClient.h
+chrono
+-
+cstdint
+-
+iostream
+-
+thread
+-
+
+/home/jetson/shd/C++_ws/MQTT/mqtt_client.cpp
+config.h
+/home/jetson/shd/C++_ws/MQTT/config.h
+
